@@ -1,0 +1,473 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "06668106-2f4e-4631-9231-82522356d2f1",
+        "meta": {
+          "lastUpdated": "2023-08-25T16:42:37.550Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840544004",
+              "display": "Suspected COVID-19"
+            }
+          ],
+          "text": "Suspected COVID-19"
+        },
+        "subject": {
+          "reference": "Patient/24042b1f-5acb-449f-9948-462618aba6d6"
+        },
+        "encounter": {
+          "reference": "Encounter/6deb0a82-03f9-45e0-a2e8-51dacb1662ee"
+        },
+        "onsetDateTime": "2020-03-01T10:19:48-08:00",
+        "abatementDateTime": "2020-03-01T11:48:48-08:00",
+        "recordedDate": "2020-03-01T10:19:48-08:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "29ca9381-382b-43d1-bc6c-0913b064a4e0",
+        "meta": {
+          "lastUpdated": "2023-08-25T16:42:36.671Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "233678006",
+              "display": "Childhood asthma"
+            }
+          ],
+          "text": "Childhood asthma"
+        },
+        "subject": {
+          "reference": "Patient/24042b1f-5acb-449f-9948-462618aba6d6"
+        },
+        "encounter": {
+          "reference": "Encounter/9a5c1caa-322c-4bac-8c02-0603c279b587"
+        },
+        "onsetDateTime": "2005-10-15T11:19:48-07:00",
+        "recordedDate": "2005-10-15T11:19:48-07:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "41880661-18df-455b-9269-b0d77e42f3f3",
+        "meta": {
+          "lastUpdated": "2023-08-25T16:42:37.318Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "444814009",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/24042b1f-5acb-449f-9948-462618aba6d6"
+        },
+        "encounter": {
+          "reference": "Encounter/eec92a89-fbd0-4d69-aa24-ad1b95023c52"
+        },
+        "onsetDateTime": "2019-09-20T11:19:48-07:00",
+        "abatementDateTime": "2019-09-27T11:19:48-07:00",
+        "recordedDate": "2019-09-20T11:19:48-07:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "427a2c38-33c4-47f8-be34-7b4dc3e5bd7b",
+        "meta": {
+          "lastUpdated": "2023-08-25T16:42:36.671Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "232353008",
+              "display": "Perennial allergic rhinitis with seasonal variation"
+            }
+          ],
+          "text": "Perennial allergic rhinitis with seasonal variation"
+        },
+        "subject": {
+          "reference": "Patient/24042b1f-5acb-449f-9948-462618aba6d6"
+        },
+        "encounter": {
+          "reference": "Encounter/6b0753f2-adc1-4e65-8dac-e8686612f616"
+        },
+        "onsetDateTime": "2006-10-29T10:19:48-08:00",
+        "recordedDate": "2006-10-29T10:19:48-08:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "5ce72899-1935-4630-9a36-d97cb72cc0a0",
+        "meta": {
+          "lastUpdated": "2023-08-25T16:42:37.552Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386661006",
+              "display": "Fever (finding)"
+            }
+          ],
+          "text": "Fever (finding)"
+        },
+        "subject": {
+          "reference": "Patient/24042b1f-5acb-449f-9948-462618aba6d6"
+        },
+        "encounter": {
+          "reference": "Encounter/6deb0a82-03f9-45e0-a2e8-51dacb1662ee"
+        },
+        "onsetDateTime": "2020-03-01T10:19:48-08:00",
+        "abatementDateTime": "2020-03-24T12:48:48-07:00",
+        "recordedDate": "2020-03-01T10:19:48-08:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "71c4183a-390e-496d-b410-81fe13ad8b1d",
+        "meta": {
+          "lastUpdated": "2023-09-25T21:19:39.299Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "302932006",
+              "display": "Tear of medial meniscus of knee"
+            }
+          ],
+          "text": "Tear of medial meniscus of knee"
+        },
+        "subject": {
+          "reference": "Patient/24042b1f-5acb-449f-9948-462618aba6d6"
+        },
+        "encounter": {
+          "reference": "Encounter/6deb0a82-03f9-45e0-a2e8-51dacb1662ee"
+        },
+        "onsetDateTime": "2022-02-01T10:19:48-08:00",
+        "abatementDateTime": "2022-03-15T11:48:48-08:00",
+        "recordedDate": "2022-03-15T10:19:48-08:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "876b1fbb-9559-4958-9109-163bf65c0fa8",
+        "meta": {
+          "lastUpdated": "2023-08-25T16:42:36.872Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "195662009",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/24042b1f-5acb-449f-9948-462618aba6d6"
+        },
+        "encounter": {
+          "reference": "Encounter/5a0abd5f-41e2-4f01-8708-45cccc1a239c"
+        },
+        "onsetDateTime": "2017-09-26T11:19:48-07:00",
+        "abatementDateTime": "2017-10-08T11:19:48-07:00",
+        "recordedDate": "2017-09-26T11:19:48-07:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8802b1f3-2659-4add-94bf-55e5161aecb2",
+        "meta": {
+          "lastUpdated": "2023-09-25T23:16:13.907Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "269113006",
+              "display": "Acute meniscal tear, medial"
+            }
+          ],
+          "text": "Acute meniscal tear, medial"
+        },
+        "subject": {
+          "reference": "Patient/24042b1f-5acb-449f-9948-462618aba6d6"
+        },
+        "encounter": {
+          "reference": "Encounter/6deb0a82-03f9-45e0-a2e8-51dacb1662ee"
+        },
+        "onsetDateTime": "2022-08-01T10:19:48-08:00",
+        "abatementDateTime": "2022-09-15T11:48:48-08:00",
+        "recordedDate": "2022-09-15T10:19:48-08:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8e63a6ec-1244-4747-974c-1f4b1f1812ac",
+        "meta": {
+          "lastUpdated": "2023-08-25T16:42:37.553Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "267102003",
+              "display": "Sore throat symptom (finding)"
+            }
+          ],
+          "text": "Sore throat symptom (finding)"
+        },
+        "subject": {
+          "reference": "Patient/24042b1f-5acb-449f-9948-462618aba6d6"
+        },
+        "encounter": {
+          "reference": "Encounter/6deb0a82-03f9-45e0-a2e8-51dacb1662ee"
+        },
+        "onsetDateTime": "2020-03-01T10:19:48-08:00",
+        "abatementDateTime": "2020-03-24T12:48:48-07:00",
+        "recordedDate": "2020-03-01T10:19:48-08:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9c714901-6245-4a68-a670-6cb4fed4c09e",
+        "meta": {
+          "lastUpdated": "2023-08-25T16:42:37.553Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "72892002",
+              "display": "Normal pregnancy"
+            }
+          ],
+          "text": "Normal pregnancy"
+        },
+        "subject": {
+          "reference": "Patient/24042b1f-5acb-449f-9948-462618aba6d6"
+        },
+        "encounter": {
+          "reference": "Encounter/68a0c8bf-3b2d-499b-a909-47d553d9e7d6"
+        },
+        "onsetDateTime": "2020-01-09T10:19:48-08:00",
+        "recordedDate": "2020-01-09T10:19:48-08:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
